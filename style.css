@@ -1,0 +1,54 @@
+body {
+    background-color:beige;
+}
+
+.ques {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(196, 105, 120);
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.lan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #7bdf2e;
+}
+
+.button:active {
+    background-color: #3b790c;
+}
+
+.lan:hover {
+    color: red;
+}
+
+
+.lan:active {
+    color: yellow;
+}
