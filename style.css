@@ -15,6 +15,20 @@ body {
     text-shadow: 2px 2px 4px #000000;
 
 }
+#ans {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(196, 105, 120);
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000; 
+    visibility: hidden;
+    z-index: 10;
+}
 
 .lan {
     position: absolute;
@@ -24,6 +38,7 @@ body {
 }
 
 .button {
+    width: 120px;
     background-color: #4CAF50;
     border: none;
     color: white;

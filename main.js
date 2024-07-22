@@ -1,5 +1,6 @@
 const co = document.getElementById("co");
 const khong = document.getElementById("khong");
+const ans = document.getElementById("ans");
 
 function chooseAcceptFunction() {
     co.innerHTML = "Không";
@@ -16,3 +17,13 @@ function chooseRejectFunction() {
 
 khong.addEventListener("focus", chooseRejectFunction);
 khong.addEventListener("mouseover", chooseRejectFunction);
+
+function displayAnser() {
+    
+    ans.style.visibility = "visible";
+    khong.style.display = "none";
+    co.style.display = "none";
+}
+
+co.addEventListener("click", displayAnser);
+khong.addEventListener("click", displayAnser);
